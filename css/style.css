@@ -40,6 +40,8 @@ img {
     padding-right:12px;
     font-weight:100;
     font-size: 1em;
+    margin-left:6px;
+    margin-right:6px;
 }
 
 .pagetitle{
@@ -135,7 +137,7 @@ nav ul li a {
     position:static;
 }
 
-/*PAGE: Homepage */
+/*PAGE: James T. Kirk */
 
 .homepage-container {
     display: grid;
@@ -151,7 +153,7 @@ header {
     padding-bottom: 2px;
 }
 
-.jameskirk {
+#jameskirk {
     display: grid;
     align-self:center;
     grid-template-rows: 1fr 1fr 1fr;
@@ -175,7 +177,7 @@ header {
     font-size: 1.2em;
 }
 
-.mycrew {
+#mycrew {
     display:grid;
     grid-row: 3 / span 1;
     align-self:center;
@@ -196,7 +198,7 @@ header {
     font-size: 1.2em;
 }
 
-.ourship {
+#ourship {
     display:grid;
     align-self:center;
     grid-row: 4 / span 1;
@@ -414,6 +416,20 @@ footer {
 
 }
 
+/*James T. Kirk*/
+
+#jameskirk, #mycrew, #ourship {
+    width: 85%;
+}
+
+.jameskirk-text, .mycrew-text, .ourship-text {
+    width: 85%;
+}
+
+#ourship {
+    margin-bottom: 90px;
+}
+
 /*Approach*/
 
 #one, #two, #three, #four {
@@ -458,5 +474,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
 }
